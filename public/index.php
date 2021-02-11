@@ -1,3 +1,5 @@
 <?php
 
-echo "Hello World!";
+require_once("../app/bootstrap.php");
+
+echo "Hello World! 2";
