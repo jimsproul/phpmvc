@@ -4,5 +4,6 @@
 Bootstrap file has all the requies
 
 */
-
-echo "In Bootstrap<br>";
+require_once('libraries/Core.php');
+require_once('libraries/Ctlr.php');
+require_once('libraries/Db.php');
