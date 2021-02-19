@@ -1,6 +1,0 @@
-<?php
-/*
-
-Main controller class
-
-*/
