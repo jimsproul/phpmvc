@@ -8,7 +8,7 @@ class Pages extends Cntlr {
 
 	public function index() {
 		$data = [
-			'title' => 'Php MVC Toolkit'
+			'title' => 'Php MVC SampleApp'
 				];
 		$this->view('pages/index',$data);
 	}

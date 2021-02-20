@@ -2,12 +2,12 @@
 
 
 define('DB_HOST', 'localhost');
-define('DB_USER', '_user_');
-define('DB_PASS', '_your_pass_');
-define('DB_NAME', '_your_db_');
+define('DB_USER', 'phpmvcuser');
+define('DB_PASS', 'phpmvc123');
+define('DB_NAME', 'phpmvc');
 
 
-define('URLROOT', '_your_url_');
+define('URLROOT', 'http://localhost/phpmvc');
 define('APPROOT', dirname(dirname(__FILE__)));
-define('SITENAME', '_your_sitename');
+define('SITENAME', 'sampleApp');
 
