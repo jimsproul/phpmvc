@@ -85,7 +85,7 @@ class Users extends Cntlr {
 			if(empty($data['password'])) {
 				$data['password_err'] = "Please enter password";
 			} 
-print_r($data);
+
 			if ( empty($data['password_err']) && empty($data['email_err'])) {
 				die("Success");
 			} else {
