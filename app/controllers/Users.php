@@ -3,6 +3,7 @@
 class Users extends Cntlr {
 
 	public function __construct() {
+		$this->userModel = $this->model("User");
 
 	}
 
@@ -27,6 +28,10 @@ class Users extends Cntlr {
 
 			if(empty($data['email'])) {
 				$data['email_err'] = "Please enter email";
+			} else {
+				if($this->userModel->findUserByEmail($data['email'])) {
+					$data['email_err'] = "Eamil already registered";
+				}
 			}
 			
 			if(empty($data['password'])) {
@@ -44,7 +49,12 @@ class Users extends Cntlr {
 
 			if (empty($data['confirm_password_err']) && empty($data['password_err'])
 				 && empty($data['name_err'])  && empty($data['email_err'])) {
-				die("Success");
+				$data['password'] =  password_hash($data['password'], PASSWORD_DEFAULT);
+				if($this->userModel->register($data)) {
+					redirect('users/login');
+				} else {
+					die("Something went wrong");
+				}
 			} else {
 				$this->view('users/register',$data);
 			}

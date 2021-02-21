@@ -65,7 +65,7 @@ class Db {
 	}
 
 	public function singleRow() {
-		$this->execute();
+		$this->exe();
 		return $this->stmt->fetch(PDO::FETCH_OBJ);
 	}
 
