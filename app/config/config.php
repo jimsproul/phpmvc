@@ -11,3 +11,5 @@ define('URLROOT', 'http://localhost/phpmvc');
 define('APPROOT', dirname(dirname(__FILE__)));
 define('SITENAME', 'sampleApp');
 
+define('APPVERSION', 'V1R0');
+
