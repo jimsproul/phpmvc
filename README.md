@@ -12,6 +12,16 @@ When you have it installed properly the app will default to a home page and supp
 
 ### Design
 
+***Views***
+
+* Pages default to index.php
+* app/views/inc has common code like headers and footers
+
+***Database***
+
+* PDO is used for database access. I suggest changing over to mysqli or similar if your app nees to scale
+* Queries are bound to named paramters
+
 ### Tools Used
 
 **xampp** release 7.3.27  (https://www.apachefriends.org/index.html) to demo and test this code. It included Php 8.0, Apache & MariaDB.& MariaDB.
