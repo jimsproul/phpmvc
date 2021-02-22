@@ -16,7 +16,7 @@ Only jQuery, Bootstrap and Font-awesome have been used to make the UI more pleas
 
 It is assumed that you have installed a Php development environment and will place this code is a folder off the Apache document root. If you are using a vhost you will have to adjust. 
 
-*NOTE* If you do not use localhost/phpmvc as you based URL you may need to adjust the .htaccess files.
+***NOTE*** If you do not use **localhost/phpmvc** as you based URL you may need to adjust the .htaccess files.
 
 **MariaDB**
 
