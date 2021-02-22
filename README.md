@@ -4,7 +4,13 @@ A Php tool kit for building a web site based on the MVC design pattern. It is co
 
 This is an Open-Source project, see the included MIT License. It is loosely based on Open-source code  Brad Traversy (https://www.traversymedia.com/) designed for his Object Oriented MVC Course through none of Brad's code was copied directly. 
 
-***NOTE*** Beware of the dev branch!! The master branch should be good to go but in flight chnages could be in the dev or other branches. 
+***NOTE*** Beware of the branches!! The master branch should be good to go but in-flight chnages could be in the dev or other branches. 
+
+### What Works
+
+When you have it installed properly the app will default to a home page and supports an about page. The register and login pages work and will save a new user account to the database.
+
+### Design
 
 ### Tools Used
 
