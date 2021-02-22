@@ -1,7 +1,7 @@
 <?php
 /*
 
-Bootstrap file has all the requies
+Bootstrap file has all the included files
 
 */
 require_once('config/config.php');
