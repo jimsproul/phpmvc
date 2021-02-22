@@ -4,6 +4,8 @@ A Php tool kit for building a web site based on the MVC design pattern. It is co
 
 This is an Open-Source project, see the included MIT License. It is loosely based on Open-source code  Brad Traversy (https://www.traversymedia.com/) designed for his Object Oriented MVC Course through none of Brad's code was copied directly. 
 
+***NOTE*** Beware of the dev branch!! The master branch should be good to go but in flight chnages could be in the dev or other branches. 
+
 ### Tools Used
 
 **xampp** release 7.3.27  (https://www.apachefriends.org/index.html) to demo and test this code. It included Php 8.0, Apache & MariaDB.& MariaDB.
