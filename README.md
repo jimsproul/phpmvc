@@ -13,7 +13,9 @@ xampp release 7.3.27  (https://www.apachefriends.org/index.html) to demo and tes
 ### Getting this code to work
 
 **Apache**
+It is assumed that you have installed a Php development environment and will place this code is a folder off the Apache document root. If you are using a vhost you will have to adjust. 
 
-It is assumed that you have installed a Php development environment and will place this code is a folder off the Apache document root. If you are using a vhost you will have to adjust.
+*NOTE* If you do not use localhost/phpmvc as you based URL you may need to adjust the .htaccess files.
+
 
 
